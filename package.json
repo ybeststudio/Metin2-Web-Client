@@ -2,6 +2,6 @@
   "name": "metin2-web-client",
   "private": true,
   "scripts": {
-    "build": "git lfs fetch --all && git lfs checkout && ls -lh models/map_city.glb && echo 'Static site - no build needed'"
+    "build": "git config lfs.url https://github.com/ybeststudio/Metin2-Web-Client.git/info/lfs && git lfs fetch --all && git lfs checkout && ls -lh models/map_city.glb && echo 'Static site - no build needed'"
   }
 }
