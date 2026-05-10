@@ -1,22 +1,15 @@
 {
-  "version": 2,
-  "builds": [
+  "buildCommand": "echo done",
+  "outputDirectory": ".",
+  "installCommand": "echo done",
+  "rewrites": [
     {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "."
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/models/map_city.glb",
-      "dest": "https://github.com/ybeststudio/Metin2-Web-Client/releases/download/assets/map_city.glb"
+      "source": "/models/map_city.glb",
+      "destination": "https://github.com/ybeststudio/Metin2-Web-Client/releases/download/assets/map_city.glb"
     },
     {
-      "src": "/ui/empire/empire_jinno169.jpeg",
-      "dest": "/ui/empire/empire_jinno169.jpg"
+      "source": "/ui/empire/empire_jinno169.jpeg",
+      "destination": "/ui/empire/empire_jinno169.jpg"
     }
   ]
 }
