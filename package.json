@@ -2,6 +2,6 @@
   "name": "metin2-web-client",
   "private": true,
   "scripts": {
-    "build": "echo 'Static site - no build needed'"
+    "build": "git lfs pull && echo 'Static site - no build needed'"
   }
 }
