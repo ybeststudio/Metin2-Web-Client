@@ -1,0 +1,32 @@
+# Bağımlılıklar (node_modules)
+node_modules/
+
+# IDE ve editör dosyaları
+.qoder/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Geçici dosyalar
+_search_result.txt
+temp_chunk.txt
+_check.ps1
+_extract.ps1
+*.tmp
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
+
+# Build çıktıları (orijinal kaynak kodu varsa)
+dist/
+build/
+
+# Ortam değişkenleri
+.env
+.env.local
+
+# Log dosyaları
+*.log
+npm-debug.log*
