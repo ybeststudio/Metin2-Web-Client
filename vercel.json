@@ -11,6 +11,10 @@
   ],
   "routes": [
     {
+      "src": "/models/map_city.glb",
+      "dest": "https://github.com/ybeststudio/Metin2-Web-Client/releases/download/assets/map_city.glb"
+    },
+    {
       "src": "/ui/empire/empire_jinno169.jpeg",
       "dest": "/ui/empire/empire_jinno169.jpg"
     }
